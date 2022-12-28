@@ -1,0 +1,22 @@
+body {
+    background-color: #3b1b47;
+    color: white;
+ }
+ .formulario{
+    background-color: #a26faf;
+    color:black;
+    padding: 30px;
+    font-size: 20px;
+ }
+ .link{
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #a26faf;
+    text-align: center;
+    justify-content: end;
+    margin-top: 100px;
+    padding: 10px;
+ }
+ .mens{
+   text-align: center;
+ }

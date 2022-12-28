@@ -1,0 +1,77 @@
+
+<style>
+    *      table {
+            padding: 20px;
+            min-width: 1000px;
+            margin-bottom: 30px;
+            background-color: #a26faf;
+            text-align: center;
+            justify-content: center;
+        }
+
+        thead {
+            color: black;
+          background-color: #a26faf;
+        }
+
+        th {
+            padding: 10px;
+            font-size: 20px;
+        }
+
+        td {
+           background-color : #694577;
+        }
+          h2 {
+           padding: 20px;
+           font-size: 40px;
+           color:white;
+         }
+        .thumbnail {
+            padding: 20px;
+        }
+        .link{
+           background-color: #a26faf;
+            font-size: 20px;
+            border-radius:20px;
+            padding:10px;
+            
+        }
+     body {
+            background-color: #3b1b47;
+            justify-content: center;
+            text-align: center;
+         }
+</style>
+
+
+
+<section>
+
+    <h2>Listado de productos</h2>
+
+    {{#if productos}}
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Price</th>
+                    <th>Thumbnail</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each misProd}}
+                    <tr>
+                        <td>{{this.title}}</td>
+                        <td>$ {{this.price}}</td>
+                        <td><img class='thumbnail' src={{this.thumbnail}} alt='imagenes' width="30px"></td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    {{else}}
+        <p class='link'>No hay productos para mostrar</p>
+    {{/if}}
+    <a class='link' href="/">Cargar mas productos</a>
+
+</section>

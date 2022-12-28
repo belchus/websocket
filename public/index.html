@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2>Ingreso de productos</h2>
+
+    <form id='productsForm'>
+        <div class="productPriceCont">
+            <label for="product">Accesorio: </label>
+            <input class='product' type="text" name="product">
+            <label for="precio">Precio: </label>
+            <input class="price" type="text" name="precio">
+            <label for="thumbnail">Imagen: (URL)</label>
+            <input class="thumbnail" type="text" name="thumbnail">
+            <button class="sendBtn" type="submit">Enviar</button>
+    </form>
+    <div id="productsList"></div>
+    <article id="MessagesCenter">
+        <h2 class="mens">Historial de mensajes</h2>
+        <div class="userInfo">
+            <label class="userEmailLbl" for="userEmail">Email: </label>
+            <input id='userEmail' type="email" name='userEmail'
+                placeholder="Ingrese su email para poder hablar con un asesor">
+        </div>
+        <div id="messagesContainer">
+        </div>
+        <form id="messagesForm">
+            <input id='messageContent' type="text" placeholder="Escriba su consulta" required>
+            <button class="msgBtn" type="submit">Enviar</button>
+        </form>
+
+    </article>
+    <script src="main.js"></script>
+
+</body>
+
+</html>

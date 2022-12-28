@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Pulsera",
+    "price": 1000,
+    "thumbnail": "https://imagendeejemplo2.com",
+    "id": 1
+  },
+  {
+    "title": "Pulsera",
+    "price": 1000,
+    "thumbnail": "https://imagendeejemplo2.com",
+    "id": 2
+  },
+  {
+    "title": "Pulsera",
+    "price": 1000,
+    "thumbnail": "https://imagendeejemplo2.com",
+    "id": 3
+  },
+  {
+    "title": "Pulsera",
+    "price": 1000,
+    "thumbnail": "https://imagendeejemplo2.com",
+    "id": 4
+  },
+  {
+    "title": "Pulsera",
+    "price": 1000,
+    "thumbnail": "https://imagendeejemplo2.com",
+    "id": 5
+  },
+  {
+    "title": "Pulsera",
+    "price": 1000,
+    "thumbnail": "https://imagendeejemplo2.com",
+    "id": 6
+  },
+  {
+    "title": "Pulsera",
+    "price": 1000,
+    "thumbnail": "https://imagendeejemplo2.com",
+    "id": 7
+  },
+  {
+    "title": "Pulsera",
+    "price": 1000,
+    "thumbnail": "https://imagendeejemplo2.com",
+    "id": 8
+  },
+  {
+    "title": "Pulsera",
+    "price": 1000,
+    "thumbnail": "https://imagendeejemplo2.com",
+    "id": 9
+  },
+  {
+    "title": "Pulsera",
+    "price": 1000,
+    "thumbnail": "https://imagendeejemplo2.com",
+    "id": 10
+  },
+  {
+    "title": "Pulsera",
+    "price": 1000,
+    "thumbnail": "https://imagendeejemplo2.com",
+    "id": 11
+  },
+  {
+    "title": "Pulsera",
+    "price": 1000,
+    "thumbnail": "https://imagendeejemplo2.com",
+    "id": 12
+  }
+]
