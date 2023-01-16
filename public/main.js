@@ -6,7 +6,7 @@ const productsList = document.getElementById('productsList')
 
 productsForm.addEventListener('submit', (e) => {
     e.preventDefault()
-    newProduct = { product: productsForm[0].value, price: productsForm[1].value, thumbnail: productsForm[2].value }
+    newProduct = { title: productsForm[0].value, price: productsForm[1].value, thumbnail: productsForm[2].value }
     socket.emit('newProduct', newProduct)
     productsForm.reset()
 })
@@ -62,7 +62,6 @@ socket.on('allMessages', data => {
     messagesContainer.innerHTML = msgMapping.join(' ')
 })
 
-// Función validadora de email
 const validateUserEmail = () => {
     const emailPattern =  /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/
     let validEmail

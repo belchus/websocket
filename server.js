@@ -30,7 +30,7 @@ io.on('connection', async socket => {
     })
     io.sockets.emit('allMessages', await messages.getAll())
 
-    socket.on('newMessage', async data => {
+    socket.on('nuevoMsn', async data => {
         data.date = new Date().toLocaleString()
         console.log(data)
         await messages.save(data)
